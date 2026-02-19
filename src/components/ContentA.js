@@ -1,0 +1,20 @@
+import React from "react";
+import { Button } from "./SharedComponents";
+
+export function ContentA() {
+  return (
+    <div style={styles.container}>
+      <h2>Content A</h2>
+      <p>This is the first content section.</p>
+      <Button label="Click Me A" />
+    </div>
+  );
+}
+
+const styles = {
+  container: {
+    padding: "20px",
+    backgroundColor: "#e3f2fd",
+    margin: "10px",
+  },
+};
